@@ -156,7 +156,7 @@ footer ul li {
 
 
 /* CSS for desktops and tablets */
-@media (min-width: 768px) {
+@media (min-width: 767px )   {
     
     p {
       font-size: 18px;
@@ -164,7 +164,14 @@ footer ul li {
     .deatel h2{
         font-size: 20px;
       }
-   
+    
+     
+    .photo img{
+        height: 100%;
+        width: 70%;
+        padding-left:400px;
+        padding-top: 20%;
+    }
   }
   
   /* CSS for phones */
@@ -207,11 +214,14 @@ footer ul li {
     }
     nav ul li{
         display: inline-block;
-        padding: 20px 40px;
+        padding: 20px 30px;
+    }
+    ul li i{
+        display: none;
     }
     
    
-    #pp{
+    #home{
         display: none;
     }
    
